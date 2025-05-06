@@ -14,5 +14,5 @@ We used one dataset, derived from a processed scRNA count matrix from the Multio
 Our dataset contained a subset of oligodendrocyte cells from the prefrontal cortex (Brodmann area 9) of the brains of individuals with and without schizophrenia (48 unique individuals, 24 each).
 
 #### Instructions to run
-First, the data needs to be downloaded and placed in the directory where the script will be run. The three required files (metacell expression matrix, metadata table, and topological overlap matrix) can be downloaded from https://drive.google.com/drive/folders/1S9Kk8QNi72NPYhUibbgqtWOuU-80BlS4?usp=sharing.
+First, the data needs to be downloaded and placed in the directory where the script will be run. The three required files (metacell expression matrix, metadata table, and topological overlap matrix) can be downloaded from https://drive.google.com/drive/folders/1S9Kk8QNi72NPYhUibbgqtWOuU-80BlS4?usp=sharing. (This data was generated using the preprocessing.R file, but that requires data stored in a non-publicly-accessible location, so we have provided the preprocessed data here.
 Then, once the dependencies listed above are installed, hyperparameters can be set as desired at the top of main.py, and the file can be run.
